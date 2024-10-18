@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Víztorony - Tisza Sziget - Oroszlány - Heti Médiafigyelő</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #1E2F4C; /* A fejléc háttérszíne */
+            color: #fff;
+            text-align: center;
+            padding: 20px 0; /* Kicsit megnövelt padding a fejléc számára */
+        }
+        .header-image {
+            width: 100%;
+            max-width: 960px;
+            height: 365px;
+            object-fit: cover; /* A kép arányainak megőrzése */
+        }
+        h1 {
+            font-size: 36px; /* Nagyobb betűméret */
+            font-family: 'Arial Black', sans-serif; /* Vastagabb betűtípus */
+            margin: 10px 0;
+            background-color: #081C3F; /* A h1 háttérszíne */
+            color: #fff; /* A h1 szöveg színe */
+            padding: 15px 0; /* Padding a h1 számára */
+            text-align: center; /* Középre igazított szöveg */
+        }
+        h2 {
+            color: #fff; /* Cikkek és videók címének színe */
+            margin: 10px 0; /* Margó a h2 címek körül */
+            padding: 10px; /* Padding a h2 számára */
+            background-color: #081C3F; /* Szekció címének háttérszíne */
+            font-size: 28px; /* Nagyobb betűméret */
+            border-radius: 5px; /* Kerekített sarkok */
+        }
+        main {
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 20px; /* Szekciók közötti távolság */
+            border-radius: 8px; /* Kerekített sarkok */
+        }
+        .weekly-highlight {
+            background-color: #e7f3ff; /* Külön háttérszín a heti ajánlónak */
+            padding: 15px; /* Padding a heti ajánló szövegének */
+            font-weight: bold; /* Vastag betűtípus */
+            font-size: 20px; /* Nagyobb betűméret */
+            border-radius: 5px; /* Kerekített sarkok */
+            margin: 15px 0; /* Margó a heti ajánló körül */
+        }
+        .article, .video {
+            margin-bottom: 20px;
+            display: flex; /* Flexbox elrendezés */
+        }
+        .article img {
+            max-width: 200px; /* Kép szélessége */
+            height: auto;
+            margin-right: 15px; /* Kép és szöveg közötti távolság */
+        }
+        .article p {
+            margin: 10px 0;
+        }
+        .article h3 a {
+            color: #1E2F4C; /* H3 linkek színe (sötétebb kék) */
+            text-decoration: none; /* Link aláhúzás eltávolítása */
+            font-weight: bold; /* Vastag link szöveg */
+            margin-top: 5px; /* Felső margó a linkeknek */
+            display: inline-block; /* Linkek blokk elemként való megjelenítése */
+        }
+        .article h3 a:hover {
+            color: #0A4B7D; /* Link színének sötétebb árnyalata hover esetén */
+            text-decoration: none; /* Aláhúzás eltávolítása hover esetén */
+        }
+        .article a {
+            color: #FF6F20; /* "Olvasd el a teljes cikket itt!" link színe (narancs) */
+            text-decoration: none; /* Link aláhúzás eltávolítása */
+            font-weight: bold; /* Vastag link szöveg */
+            margin-top: 5px; /* Felső margó a linkeknek */
+            display: inline-block; /* Linkek blokk elemként való megjelenítése */
+        }
+        .article a:hover {
+            text-decoration: underline; /* Hover effektus */
+            color: #FF4500; /* Link színének sötétebb narancs színre változtatása hover esetén */
+        }
+        .video iframe {
+            width: 100%;
+            height: 315px;
+        }
+        .video h3 {
+            margin: 10px 0; /* Videó címének margója */
+            color: #FF6F20; /* Videó címének színe */
+        }
+        .video p {
+            text-align: center; /* Középre igazított szöveg a videók alatt */
+        }
+        @media (max-width: 600px) {
+            main {
+                padding: 10px;
+            }
+            .video iframe {
+                height: 200px;
+            }
+            .article {
+                flex-direction: column; /* Mobil nézethez oszlopos elrendezés */
+            }
+            .article img {
+                margin-right: 0;
+                margin-bottom: 10px; /* Kép és szöveg közötti távolság mobilon */
+            }
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1E2F4C; /* A lábléc háttérszíne */
+            color: #fff;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="viztorony_kep.jpg" alt="Víztorony - Tisza Sziget - Oroszlány" class="header-image">
+        <h1>Heti Médiafigyelő 2024.10.19.</h1>        
+    </header>
+
+    <main>
+        <section class="section">
+            <h2>Heti Ajánló</h2>
+            <div class="weekly-highlight">
+                Minden héten szombaton megosztjuk veletek az előző hét szombattól az aktuális hét péntekéig összegyűjtött általunk legérdekesebbnek tartott cikkeket és videókat. Reméljük, hogy hasznosnak találjátok ezeket a forrásokat!
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>Ajánlott Cikkek</h2>
+            
+            <div class="article">
+                <img src="https://assets.telex.hu/images/20241014/1728890780-temp-fdpbkI_hero-full:xl@1.25x.jpg" alt="Az egész rendszer az erőátvitelről szól – Orbán és a megtorpant gazdaság III.">
+                <div>
+                    <h3><a href="https://telex.hu/direkt36/2024/10/14/az-egesz-rendszer-az-eroatvitelrol-szol-orban-es-a-megtorpano-gazdasag-iii" target="_blank">Az egész rendszer az erőátvitelről szól – Orbán és a megtorpant gazdaság III.</a></h3>
+                    <p>Egy elemzés Orbán Viktor gazdaságpolitikai irányvonaláról.</p>
+                    <a href="https://telex.hu/direkt36/2024/10/14/az-egesz-rendszer-az-eroatvitelrol-szol-orban-es-a-megtorpano-gazdasag-iii" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="2.jpg" alt="Somkúti Bálint: MCC, 1956, szuverenitásvédelmi hivatal, geopolitikai szakértő">
+                <div>
+                    <h3><a href="https://telex.hu/belfold/2024/10/13/somkuti-balint-mcc-1956-szuverenitasvedelmi-hivatal-geopolitikai-szakerto" target="_blank">Somkúti Bálint: MCC, 1956, szuverenitásvédelmi hivatal, geopolitikai szakértő</a></h3>
+                    <p>Beszélgetés Somkúti Bálinttal a geopolitikai helyzetről.</p>
+                    <a href="https://telex.hu/belfold/2024/10/13/somkuti-balint-mcc-1956-szuverenitasvedelmi-hivatal-geopolitikai-szakerto" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="Nemzeti_Védelmi_Szolgálat_NVSZ.jpg" alt="MNB költségvédelmi jelentés – Rezsivédelmi alap">
+                <div>
+                    <h3><a href="https://nepszava.hu/3253765_mnb-koltsegvedesi-jelentes-rezsivedelmi-alap" target="_blank">MNB költségvédelmi jelentés – Rezsivédelmi alap</a></h3>
+                    <p>A Magyar Nemzeti Bank legfrissebb költségvédelmi jelentése.</p>
+                    <a href="https://nepszava.hu/3253765_mnb-koltsegvedesi-jelentes-rezsivedelmi-alap" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="https://hang.hu/data/IMG_9712_focuspointscale_w702_fx0_fy0.webp?key=MDYzMGEzNDM2MGY0MTE2N2E1MmI5YzFkMTc5ZDRiMWM4ZTZkMzA0MzA3NjIyMzgzOTJlNjlhYzJlZjdlYzIzYg==&v=1729273152" alt="A határvadászok közel negyede mondott fel szeptemberig">
+                <div>
+                    <h3><a href="https://hang.hu/belfold/a-hatarvadaszok-kozel-negyede-mondott-fel-szeptemberig-168464" target="_blank">A határvadászok közel negyede mondott fel szeptemberig</a></h3>
+                    <p>Részletek a határvadászok helyzetéről.</p>
+                    <a href="https://hang.hu/belfold/a-hatarvadaszok-kozel-negyede-mondott-fel-szeptemberig-168464" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="https://img.hvg.hu/Img/da658e97-86c0-40f3-acd3-b0a850f32c30/b3468080-3317-4aee-a5f1-a495aa124337.jpg" alt="Fővárosi Törvényszék: bírálják a fizetéseket">
+                <div>
+                    <h3><a href="https://hvg.hu/itthon/20241014_Fovarosi-Torvenyszek-birak-fizetes" target="_blank">Fővárosi Törvényszék: bírálják a fizetéseket</a></h3>
+                    <p>A legfrissebb hírek a bíróságok helyzetéről.</p>
+                    <a href="https://hvg.hu/itthon/20241014_Fovarosi-Torvenyszek-birak-fizetes" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+			
+			<div class="article">
+                <img src="https://hang.hu/data/generated/articles/141/1415/article-141559/natanael-melchor-43LwvC-eQPM-unsplash_focuspointscale_w702_fx0_fy0.webp?key=ZmUzY2FhYjg2NWI3MzQ4ZWM3Y2VmYTZjNWUxZjBhNmZjN2U4MDI3OGRkYjA4NjIzOTljZjZjOGM4MjczMjZlMQ==&v=1729240545" alt="Az állami egészségügy mindenkit el tud látni, csak az időpont kérdéses">
+                <div>
+                    <h3><a href="https://hang.hu/belfold/az-allami-egeszsegugy-mindenkit-el-tud-latni-csak-az-idopont-kerdeses-168497" target="_blank">Az állami egészségügy mindenkit el tud látni, csak az időpont kérdéses</a></h3>
+                    <p>Friss információk az állami egészségügy helyzetéről.</p>
+                    <a href="https://hang.hu/belfold/az-allami-egeszsegugy-mindenkit-el-tud-latni-csak-az-idopont-kerdeses-168497" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="https://assets.4cdn.hu/kraken/86kqYfHUY9wORbHQs.jpeg" alt="Békés Márton: nem jó blokkban vagyunk">
+                <div>
+                    <h3><a href="https://444.hu/2024/10/15/bekes-marton-nem-jo-blokkban-vagyunk-az-ertekrendszerunk-szerint-az-eszak-atlanti-blokk-nem-a-mi-blokkunk?fbclid=IwY2xjawF8VYtleHRuA2FlbQIxMQABHUQInADeoZxIJcXyVcF_ouRsLkN5zmT1gWpvFZkIN6273G2AbZZOIeAcjQ_aem_xWpOcZ3wyPzhuSCVEAJsjQ" target="_blank">Békés Márton: nem jó blokkban vagyunk</a></h3>
+                    <p>Politikai elemzés Békés Mártonnal.</p>
+                    <a href="https://444.hu/2024/10/15/bekes-marton-nem-jo-blokkban-vagyunk-az-ertekrendszerunk-szerint-az-eszak-atlanti-blokk-nem-a-mi-blokkunk?fbclid=IwY2xjawF8VYtleHRuA2FlbQIxMQABHUQInADeoZxIJcXyVcF_ouRsLkN5zmT1gWpvFZkIN6273G2AbZZOIeAcjQ_aem_xWpOcZ3wyPzhuSCVEAJsjQ" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+            <div class="article">
+                <img src="https://pcdn.hu/articles/images-xl/s/z/i/szijjarto-peter-szergej-lavrov-new-york-ensz-konferencia-708965.jpg" alt="Kiforgatta Szijjártó Péter szavait az orosz állami hírügynökség">
+                <div>
+                    <h3><a href="https://www.portfolio.hu/global/20241013/kiforgatta-szijjarto-peter-szavait-az-orosz-allami-hirugynokseg-tiltakozik-a-magyar-kulugyminiszterium-716217" target="_blank">Kiforgatta Szijjártó Péter szavait az orosz állami hírügynökség</a></h3>
+                    <p>Elemzés a külügyminiszter szavairól.</p>
+                    <a href="https://www.portfolio.hu/global/20241013/kiforgatta-szijjarto-peter-szavait-az-orosz-allami-hirugynokseg-tiltakozik-a-magyar-kulugyminiszterium-716217" target="_blank">Olvasd el a teljes cikket itt!</a>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="section">
+            <h2>Ajánlott Videók</h2>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/sHlcfgk07Ns?si=dT0q-nzdxa0yHwce" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>               
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/cjI0_V_rfiE" frameborder="0" allowfullscreen></iframe>                
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/DDlA_6AJFiE" frameborder="0" allowfullscreen></iframe>                
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/V20V2U7u6As" frameborder="0" allowfullscreen></iframe>                
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/0VzoQXVL4Ys" frameborder="0" allowfullscreen></iframe>                
+            </div>
+            <div class="video">
+                <iframe src="https://www.youtube.com/embed/XRegAdsZ38w" frameborder="0" allowfullscreen></iframe>                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Víztorony - Tisza Sziget - Oroszlány</p>
+    </footer>
+
+</body>
+</html>
+
